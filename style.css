@@ -66,14 +66,20 @@ p {
   width: 400px;
 }
 
+.btn-pay:hover {
+  background-color: #602993;
+  text-decoration: none;
+}
+
 .btn-pay {
   background-color: var(--Bright_blue);
   padding: 15px 0;
   margin: 20px 30px;
   border-radius: 10px;
   font-weight: 900;
-
-  /* box-shadow: 0 10px 10px 0 hsl(245, 75%, 52%), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(1, 1, 1, 0.25);
+  transition: all 0.1s ease-in;
 }
 
 .btn-pay a {
@@ -89,4 +95,22 @@ p {
 
 .btn {
   margin-bottom: 30px;
+}
+
+.btn a:hover {
+  color: black;
+}
+
+.btn-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-change a {
+  color: var(--Bright_blue);
+}
+
+.btn-change a:hover {
+  color: #602993;
 }
